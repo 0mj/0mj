@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning Ruby, Ruby on Rails & TDD with RSpec
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
+- https://media.giphy.com/media/wi8Ez1mwRcKGI/giphy.gif
 
 <!---
 0mj/0mj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
