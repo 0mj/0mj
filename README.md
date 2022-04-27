@@ -6,7 +6,7 @@
 
 [Markdown](https://daringfireball.net/projects/markdown/ "Title")  
 
-![DO IT](https://media.giphy.com/media/wi8Ez1mwRcKGI/giphy.gif)
+![DO IT](https://photos.app.goo.gl/y6jwmXmmez8EvJ2o6)
 
 <!---
 0mj/0mj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
