@@ -15,7 +15,7 @@ So you dont have a key.  Use the following steps to create one.
 3. Press enter twice when prompted with "Enter passphrase"  
 4. Set permissions on your keys   
 `sudo chmod 600 ~/.ssh/id_rsa && sudo chmod 600 ~/.ssh/id_rsa.pub`  
-5. Run `\`ssh-agent\`` (yes including backticks)  
+5. Run `` `ssh-agent` `` (yes including backticks)  
 6. eval `ssh-agent`  
 
 ### Add your key to the SSH keychain  
