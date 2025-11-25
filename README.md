@@ -1,32 +1,35 @@
-<!---
-0mj/0mj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-## Add a ssh key to github
-### Don't I have a key?  
-Check for existing keys..  
-`ls -al ~/.ssh`
+# Steve The Nobel Canine <img src="https://img.shields.io/badge/Steve_The_Nobel_Canine-%F0%9F%90%BE-blueviolet?style=for-the-badge" />
 
+<!-- jittery coffee loop via Unicode dance -->
+<p align="center">
+  <span style="font-size:3rem; display:inline-block; animation: wiggle 1s infinite;">
+    ☕
+  </span>
+</p>
 
-### Create your SSH key  
-So you dont have a key.  Use the following steps to create one.
-1. `ssh-keygen`  
-2. Press enter when prompted with "Enter file in which to save the..."  
-3. Press enter twice when prompted with "Enter passphrase"  
-4. Set permissions on your keys   
-`sudo chmod 600 ~/.ssh/id_rsa && sudo chmod 600 ~/.ssh/id_rsa.pub`  
-5. Run `` `ssh-agent` `` (yes including backticks)  
-6. eval `ssh-agent`  
+<style>
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(6deg); }
+  100% { transform: rotate(0deg); }
+}
+</style>
 
-### Add your key to the SSH keychain  
-1. `ssh-add ~/.ssh/id_rsa`  
-2. View your public key `cat ~/.ssh/id_rsa.pub`  
-3. Copy your public key from above  
-4. Add it to your github Account's SSH Keys section  
-5. Verify that the key is setup properly `ssh -T git@githbub.com`  
-6. Say "yes" when asked if you'd like to add to known hosts  
-    You should see your username and some message about how shell access is disabled  
-7. Exit and reopen terminal    
-8. Run `ssh -T git@github.com` again just to ensure you can still connect to github after a restart
+## Pinned Paths
+- ⭐ <a href="https://github.com/YourUser/your-best-repo">Your Best Repo</a>
+- 🛠️ <a href="https://github.com/YourUser/something-clever">Something Clever</a>
+- 🌐 <a href="https://your-website.example/">Personal Site</a>
 
-If you get an error about not having access when pushing a new repository try making one on github first ;) 
+## Current Experiments
+- Cybersecurity tinkering  
+- Ruby adventures  
+- Concrete countertop wizardry  
+
+## Quick Badges
+<p>
+  <img src="https://img.shields.io/badge/Cybersecurity-Exploring-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Ruby-Learning-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Product_Owner-Agile-blue?style=flat-square" />
+</p>
